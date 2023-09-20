@@ -1,0 +1,92 @@
+.mobile_menu_on {
+  position: fixed;
+  width: 100%;
+  height: 120%;
+  background-color: rgba(2, 148, 145, 1);
+  z-index: 300;
+  overflow: hidden;
+  opacity: 1;
+  margin-top: -15vh;
+}
+
+.mobile_menu_off {
+  position: sticky;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(2, 148, 145, 1);
+  z-index: 2;
+  overflow: hidden;
+  opacity: 1;
+  transform: translateX(-100%);
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.logo {
+  margin-left: 25px;
+}
+
+.cancel {
+  width: 35px;
+  height: 35px;
+  margin: auto 30px;
+  cursor: pointer;
+}
+
+.nav {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.li {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.auth_buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup {
+  width: 50%;
+  height: 5vh;
+  background: none;
+  border: none;
+  opacity: 0.5;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 40px;
+
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  cursor: pointer;
+}
+
+.login {
+  width: 295px;
+  height: 51.955px;
+  border: none;
+  border-radius: 5px;
+  background: #7ce3e1;
+
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}

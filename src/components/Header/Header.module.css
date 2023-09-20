@@ -1,0 +1,305 @@
+.header {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100vw;
+  height: 93px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 60px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+
+.nav_p {
+  margin: 38px 25px;
+  cursor: pointer;
+}
+
+.nav_p:hover {
+  color: rgba(2, 148, 145, 1);
+  border-bottom: 1px solid rgba(2, 148, 145, 1);
+}
+
+.user_panel_off {
+  margin-top: 33px;
+  margin-right: 60px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slash {
+  width: 2px;
+  height: 26px;
+  margin: 0 20px;
+}
+
+.signup {
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.signup:hover {
+  color: rgba(2, 148, 145, 1);
+  border-bottom: 1px solid rgba(2, 148, 145, 1);
+  margin-bottom: -1px;
+}
+
+.login {
+  width: 65px;
+  height: 26px;
+  background-color: rgba(124, 227, 225, 1);
+  border-radius: 5px;
+  border-color: rgba(124, 227, 225, 1);
+  outline: none;
+  border: none;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: rgba(2, 148, 145, 1);
+  color: white;
+}
+
+.user_panel_on {
+  display: flex;
+}
+
+.user_stats {
+  width: 175px;
+  height: 63px;
+  background-color: rgba(217, 217, 217, 0.3);
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.companies_limit {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+
+  color: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  margin-top: 10px;
+}
+
+.companies_used {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+
+  color: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  margin-top: 10px;
+}
+
+.cl_text {
+  width: 75%;
+  margin-right: 9px;
+}
+
+.cu_text {
+  width: 75%;
+  margin-right: 9px;
+}
+
+.cu_counter {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+}
+
+.cl_counter {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(138, 197, 64, 1);
+  text-align: left;
+}
+
+.user_profile {
+  display: flex;
+  margin: 30px 60px 31px 128px;
+}
+
+.user_profile_text {
+  text-align: right;
+  margin-right: 4px;
+}
+
+.user_name {
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.user_name:hover {
+  color: rgba(2, 148, 145, 1);
+}
+
+.logout_text {
+  font-size: 10px;
+  line-height: 12px;
+  cursor: pointer;
+}
+
+.logout_text:hover {
+  color: rgba(2, 148, 145, 1);
+}
+
+.user_pic {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.user_pic:hover {
+  outline: solid 3px rgba(2, 148, 145, 0.4);
+  outline-offset: -3px;
+  border-radius: 30px;
+}
+
+.mobile_menu {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    margin-left: 40px;
+  }
+
+  .nav_p {
+    margin: 38px 14px;
+  }
+
+  .user_panel_off {
+    margin-right: 18px;
+  }
+
+  .slash {
+    margin: 0 12px;
+  }
+
+  .user_stats {
+    margin: 15px 0px;
+  }
+
+  .user_profile {
+    display: flex;
+    margin: 30px 30px 31px 40px;
+  }
+
+  .user_profile_text {
+    text-align: right;
+    margin-right: 4px;
+  }
+
+  .user_name {
+    margin-bottom: 3px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 760px) {
+  .nav_p {
+    display: none;
+  }
+
+  .user_panel_off {
+    display: none;
+  }
+
+  .user_profile {
+    display: none;
+  }
+
+  .mobile_menu {
+    display: block;
+    width: 30px;
+    height: 25px;
+    margin-top: 32px;
+    margin-right: 26px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .logo {
+    margin-left: 5px;
+    width: 111px;
+    height: 83px;
+  }
+  .user_stats {
+    width: 132px;
+    height: 75px;
+    background-color: rgba(217, 217, 217, 0.3);
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+
+  .companies_used {
+    display: block;
+    margin: 0 15px 0 10px;
+    width: 97px;
+    height: 10px;
+    text-align: left;
+  }
+  .companies_limit {
+    display: block;
+    margin: 20px 15px 0 10px;
+    width: 97px;
+    height: 10px;
+    text-align: left;
+  }
+  .cu_text {
+    font-size: 8px;
+    margin: 5px 0 2px 0;
+    width: 97px;
+  }
+
+  .cl_text {
+    font-size: 8px;
+    margin: 5px 0 2px 0;
+    width: 97px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    margin-left: 5px;
+    width: 91px;
+    height: 76px;
+  }
+
+  .mobile_menu {
+    width: 28px;
+    height: 22px;
+    margin-top: 32px;
+    margin-right: 10px;
+  }
+}
