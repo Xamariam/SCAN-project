@@ -19,7 +19,7 @@ export default function PublicationCard({ item }) {
         <p className={css.doc_date}>
           {new Date(item.ok.issueDate).toLocaleDateString()}
         </p>
-        <a className={css.unset_a} href={item.ok.url} target="_blank">
+        <a className={css.unset_a} href={item.ok.url} target="_blank" rel="noreferrer">
           <p className={css.doc_source}>{item.ok.source.name}</p>
         </a>
       </div>
@@ -40,7 +40,7 @@ export default function PublicationCard({ item }) {
         <p className={css.doc_text}>{maximumText}</p>
       </div>
       <div className={css.doc_lowerpart}>
-        <a className={css.unset_a} href={item.ok.url} target="_blank">
+        <a className={css.unset_a} href={item.ok.url} target="_blank" rel="noreferrer">
           <button className={css.doc_readbtn}>Читать в источнике</button>
         </a>
         <p className={css.doc_words}>{item.ok.attributes.wordCount} слов</p>
