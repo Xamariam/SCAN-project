@@ -165,7 +165,7 @@
 
 input[type='date'] {
   font-family: 'Inter';
-  background: #fff url('../../images/arDown.png') 97% 50% no-repeat;
+  background: #fff url('../../images/arDown.png') 99.5% 50% no-repeat;
   cursor: unset;
 }
 
@@ -203,7 +203,7 @@ input[type='date'] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #fff url('../../images/arDown.png') 97% 50% no-repeat;
+  background: #fff url('../../images/arDown.png') 99.5% 50% no-repeat;
   cursor: unset;
 }
 
